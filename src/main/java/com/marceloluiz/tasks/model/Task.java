@@ -7,7 +7,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 
 import java.util.UUID;
 
-@Document(collation = "tasks")
+@Document(collection = "tasks")
 @Data
 @Builder //using builder instead of constructors to create a more clear and readable instance of the 'Task'
 public class Task {
